@@ -1,7 +1,8 @@
 body{  
+       background: rgba(52, 64, 230, 0.8) url(jeunes.png);
+       background-blend-mode: lighten;
        background-repeat: no-repeat; 
        background-size: cover;
-       background: url(jeunes.png);
        color: white;
        text-align: center;
     }
@@ -13,7 +14,7 @@ body{
     }
     form{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(20, 5, 76);
+        background-color: rgba(20, 5, 76, 0.8);
         padding-left: 1%;
         padding-right: 1%;
         padding-top: 1%;
@@ -40,6 +41,14 @@ body{
     text-align: center;
     width: 490px;
     height: 45px;
+   }
+   .menu{
+    padding-right: 72%;
+    padding-bottom: 2%;
+   }
+   .menu2{
+    padding-right: 74%;
+    padding-bottom: 2%;
    }
   
     
